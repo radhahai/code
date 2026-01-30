@@ -1,0 +1,30 @@
+# Seismic Analysis Dashboard - Production Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core Web Framework
+streamlit>=1.28.0
+
+# Numerical Computing
+numpy>=1.24.0
+scipy>=1.10.0
+pandas>=2.0.0
+
+# Visualization
+plotly>=5.15.0
+
+# PDF Report Generation
+reportlab>=4.0.0
+
+# Production Enhancements
+python-dotenv>=1.0.0    # Environment configuration
+pydantic>=2.0.0         # Data validation (optional, for future)
+
+# Development & Testing (optional)
+# pytest>=7.0.0
+# pytest-cov>=4.0.0
+# black>=23.0.0
+# mypy>=1.0.0
+# flake8>=6.0.0
+
+# Optional: Performance
+# numba>=0.57.0         # JIT compilation for numerical code
